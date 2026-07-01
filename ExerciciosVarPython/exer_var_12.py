@@ -7,5 +7,12 @@ cigarrosDia = int(input("Quantos cigarros você fuma por dia? "))
 anosFuma = int(input("Quantos anos você já fumou? "))
 
 anosEmDias = cigarrosDia * 365 
+totalCigarrofumados = anosEmDias * anosFuma
 
+minutosPerdidos = totalCigarrofumados* 10
+
+total = minutosPerdidos / 1440
+
+
+print(f"Você perdeu {total: .1f} dias da sua vida")
 
