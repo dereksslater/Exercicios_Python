@@ -14,5 +14,5 @@ minutosPerdidos = totalCigarrofumados* 10
 total = minutosPerdidos / 1440
 
 
-print(f"Você perdeu {total: .1f} dias da sua vida")
+print(f"Você perdeu {total: .1f} dias da sua vida") 
 
