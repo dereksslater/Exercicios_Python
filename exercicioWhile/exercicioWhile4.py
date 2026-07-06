@@ -16,7 +16,6 @@ else:
     
     while cont <= limiteSuperior:
         total = total + cont  
-        cont = cont + 1       
-    
-    
+        cont = cont + 1
+         
     print(f"Resultado: {total}")
