@@ -10,7 +10,7 @@ def intervalo (a, b, c):
      return False
      
  
-print(intervalo (3 , 11, 10))
-print(intervalo (3 , 16, 19))
-print(intervalo (3 ,6, 4))
+#print(intervalo (3 , 11, 10))
+#print(intervalo (3 , 16, 19))
+#print(intervalo (3 ,6, 4))
 
