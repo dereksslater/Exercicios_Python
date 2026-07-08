@@ -4,7 +4,7 @@
 
 def intervalo (a, b, c):
  
- if c > a and c < b:
+ if c >= a and c <= b:
       return True 
  else:
      return False
