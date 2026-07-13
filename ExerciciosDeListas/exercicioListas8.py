@@ -8,11 +8,13 @@ def media_moda(lista):
          ind = ind + 1
          return None
      else:
-            moda = statistics.mode(lista)
-            media = statistics.mean(lista)
-            ind = ind + 1
-    print(f"A média é: {media}, e a moda é: {moda}")   
-   
+         ind = ind + 1
+                 
+    moda = statistics.mode(lista)
+    media = statistics.mean(lista)
+    
+    return [moda,media]
     
     
 print(media_moda([2.3,5.4,3.4,5.5,5.5,2.3,5,10]))
+print(media_moda([2.3,5.4,3.4,5.5,5.5,2.3,4,3,4,4,4,4]))
