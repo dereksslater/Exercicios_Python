@@ -11,4 +11,4 @@ def contadorAleator(quantidade):
         
     return total  
         
-print(contadorAleator(5))        
+print(contadorAleator(5))       
