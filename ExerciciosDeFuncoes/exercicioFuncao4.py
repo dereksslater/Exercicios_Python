@@ -2,6 +2,6 @@
 import math
 
 
-def fatorial (numero):
+def fatorial(numero):
     resultado = math.factorial(numero)
     return resultado

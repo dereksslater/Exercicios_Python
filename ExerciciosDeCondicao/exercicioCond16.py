@@ -9,7 +9,6 @@ if a <= 0 or b <= 0 or c <= 0:
     print("Erro: Todos os lados devem ser maiores que zero.")
 
 else:
-   
     condicao1 = abs(b - c) < a < (b + c)
     condicao2 = abs(a - c) < b < (a + c)
     condicao3 = abs(a - b) < c < (a + b)

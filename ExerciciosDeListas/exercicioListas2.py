@@ -6,14 +6,12 @@ ind = 0
 total = 0
 tam = len(lista)
 
-while ind < tam: 
-    numero_atual = lista[ind] 
-    
+while ind < tam:
+    numero_atual = lista[ind]
+
     if eh_primo(numero_atual):
         total = total + 1
-    
-    ind = ind + 1 
+
+    ind = ind + 1
 
 print(total)
-   
-    

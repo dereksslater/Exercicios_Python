@@ -7,18 +7,8 @@ contador = 0
 
 if number <= 1:
     print("Erro: digite um númeor maior que 1")
-    
+
 while contador <= number:
-    if contador %2 != 0:
+    if contador % 2 != 0:
         print(contador)
-    contador = contador +1
-    
-    
-
-
-
-
-        
-    
-
-
+    contador = contador + 1

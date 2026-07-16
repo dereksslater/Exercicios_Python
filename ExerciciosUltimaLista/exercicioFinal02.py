@@ -5,16 +5,15 @@ def modulo(lista):
     novaLista = []
     ind = 0
     while ind < len(lista):
-        if lista[ind] <0:
-         converte = lista[ind] * -1
-         novaLista.append(converte)
-         ind = ind + 1
+        if lista[ind] < 0:
+            converte = lista[ind] * -1
+            novaLista.append(converte)
+            ind = ind + 1
         else:
             novaLista.append(lista[ind])
             ind = ind + 1
-    
+
     return novaLista
 
 
-
-print(modulo([2,3,4,5,-2,-4]))
+print(modulo([2, 3, 4, 5, -2, -4]))

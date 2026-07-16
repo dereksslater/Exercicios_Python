@@ -3,11 +3,10 @@
 import exercicioFuncao4
 
 
-
 n = 10
 p = 7
 
-rspn =exercicioFuncao4.fatorial(n)
+rspn = exercicioFuncao4.fatorial(n)
 rspp = exercicioFuncao4.fatorial(p)
 
 r1 = n - p

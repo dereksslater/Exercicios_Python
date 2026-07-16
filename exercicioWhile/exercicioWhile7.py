@@ -9,15 +9,11 @@ while entrada != 0:
     quantidade = quantidade + 1
     soma = soma + entrada
     entrada = int(input("Digite um novo número: "))
-    entrada = entrada 
-    
-        
-if quantidade >0:
-    media = soma / quantidade   
+    entrada = entrada
+
+
+if quantidade > 0:
+    media = soma / quantidade
     print(f"Quantidade: {quantidade}, média: {media}, somatório: {soma}")
 else:
     print("Você não digitou nenhum número válido")
-    
-    
-    
-  

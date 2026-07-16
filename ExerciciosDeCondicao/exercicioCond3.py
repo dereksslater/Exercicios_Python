@@ -1,4 +1,4 @@
-#Obtenha um valor numérico via entrada do usuário e apresente um valor Lógico indicando se o valor está no intervalo 0<x<1. Separe a verificação em duas partes (utilizando um operador lógico).
+# Obtenha um valor numérico via entrada do usuário e apresente um valor Lógico indicando se o valor está no intervalo 0<x<1. Separe a verificação em duas partes (utilizando um operador lógico).
 
 numb = float(input("Digite um número: "))
 

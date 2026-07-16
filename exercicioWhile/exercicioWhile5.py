@@ -8,14 +8,4 @@ cont = 1
 
 while cont <= number2:
     print(number1 * cont)
-    cont = cont+ 1
-    
-    
-    
-    
-    
-
-            
-  
-    
-        
+    cont = cont + 1

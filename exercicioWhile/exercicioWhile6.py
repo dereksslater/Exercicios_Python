@@ -8,17 +8,14 @@ cont = n1
 produto = 1
 
 
-
 while cont <= n2:
     print(cont)
-    produto = produto * cont 
+    produto = produto * cont
     cont = cont + 1
-     
+
 print(produto)
 
-if produto %2 == 0:
+if produto % 2 == 0:
     print("É par")
 else:
     print("É ímpar")
-    
-    
